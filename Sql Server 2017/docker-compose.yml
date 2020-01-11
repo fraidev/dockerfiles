@@ -1,0 +1,9 @@
+version: "3"
+services:
+    db:
+        ports:
+            - "1433:1433"
+        image: "mcr.microsoft.com/mssql/server"
+        environment:
+            SA_PASSWORD: "batataDoce42AgrVai"
+            ACCEPT_EULA: "Y"
